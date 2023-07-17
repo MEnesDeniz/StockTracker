@@ -21,7 +21,7 @@ enum StockIndustry: String {
 class Model: ObservableObject {
     // Constants for API key and URL
     private enum Constants {
-        static let apiKey = "cgs7qthr01qkrsgj4av0cgs7qthr01qkrsgj4avg"
+        static let apiKey = ""
         static let apiUrl = "https://finnhub.io/api/v1/quote"
     }
     
