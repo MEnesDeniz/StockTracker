@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4375EE29E9E874006E3F8A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4375ED29E9E874006E3F8A /* Model.swift */; };
+		6D74CCEE29ED74BE00D83CDB /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D74CCED29ED74BE00D83CDB /* Comfortaa-SemiBold.ttf */; };
+		6D74CCF029ED816800D83CDB /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D74CCEF29ED816800D83CDB /* StockView.swift */; };
+		6D8BCB6329ED549700E23CD0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D8BCB6229ED549700E23CD0 /* Roboto-Italic.ttf */; };
+		6D961BCC29ECCC4900DE79F5 /* FloatingButton in Frameworks */ = {isa = PBXBuildFile; productRef = 6D961BCB29ECCC4900DE79F5 /* FloatingButton */; };
+		6D961BCF29ECE8C200DE79F5 /* IndustrySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BCE29ECE8C200DE79F5 /* IndustrySelectionView.swift */; };
+		6D961BD129ECE8D900DE79F5 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BD029ECE8D900DE79F5 /* SearchBarView.swift */; };
+		6D961BD329ECE8F400DE79F5 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BD229ECE8F400DE79F5 /* StockListView.swift */; };
+		6D961BD629ECEA8600DE79F5 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BD529ECEA8600DE79F5 /* MainContentView.swift */; };
+		6D961BD829ECEAA800DE79F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BD729ECEAA800DE79F5 /* ContentView.swift */; };
+		6D961BDA29ECED2100DE79F5 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BD929ECED2100DE79F5 /* Analytics.swift */; };
+		6D961BDD29ECF84700DE79F5 /* TotalProfitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BDC29ECF84700DE79F5 /* TotalProfitView.swift */; };
+		6D961BDF29ECF86700DE79F5 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BDE29ECF86700DE79F5 /* Charts.swift */; };
+		6D961BE129ECF97500DE79F5 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D961BE029ECF97500DE79F5 /* AnalyticsView.swift */; };
+		6DAF179B29E8333F00DBD9C8 /* StockTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF179A29E8333F00DBD9C8 /* StockTrackerApp.swift */; };
+		6DAF179F29E8334000DBD9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF179E29E8334000DBD9C8 /* Assets.xcassets */; };
+		6DAF17A229E8334000DBD9C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF17A129E8334000DBD9C8 /* Preview Assets.xcassets */; };
+		6DE8986B29E88A840067FDC0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8986A29E88A840067FDC0 /* Stock.swift */; };
+		6DE8986E29E88AAA0067FDC0 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8986D29E88AAA0067FDC0 /* StockViewModel.swift */; };
+		6DE8987429E88C0C0067FDC0 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE8987329E88C0C0067FDC0 /* BrowseView.swift */; };
+		6DEB06AA29EBFA1A0062B11E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 6DEB06A929EBFA1A0062B11E /* SwiftUICharts */; };
+		6DEB06AC29EBFA410062B11E /* SwiftPieChart in Frameworks */ = {isa = PBXBuildFile; productRef = 6DEB06AB29EBFA410062B11E /* SwiftPieChart */; };
+		6DF28FEA29E9FF0800DE5974 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FE929E9FF0800DE5974 /* Portfolio.swift */; };
+		6DF28FEC29E9FFE600DE5974 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FEB29E9FFE600DE5974 /* PortfolioView.swift */; };
+		6DF28FEE29EA008E00DE5974 /* PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FED29EA008E00DE5974 /* PortfolioViewModel.swift */; };
+		6DF28FF029EA00E700DE5974 /* AddToPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FEF29EA00E700DE5974 /* AddToPortfolio.swift */; };
+		6DF28FFA29EB228600DE5974 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FF929EB228600DE5974 /* User.swift */; };
+		6DF28FFE29EB232600DE5974 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FFD29EB232600DE5974 /* LoginViewModel.swift */; };
+		6DF2900029EB234800DE5974 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF28FFF29EB234800DE5974 /* LoginView.swift */; };
+		6DF2900529EB517800DE5974 /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF2900429EB517800DE5974 /* AnalyticsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D4375ED29E9E874006E3F8A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Model.swift; path = stockTracker/Services/Model.swift; sourceTree = SOURCE_ROOT; };
+		6D74CCED29ED74BE00D83CDB /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../Comfortaa/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		6D74CCEF29ED816800D83CDB /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StockView.swift; path = stockTracker/Views/StockView.swift; sourceTree = SOURCE_ROOT; };
+		6D8BCB6229ED549700E23CD0 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../Roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		6D8BCB6429ED54E500E23CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6D961BCE29ECE8C200DE79F5 /* IndustrySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IndustrySelectionView.swift; path = stockTracker/Views/IndustrySelectionView.swift; sourceTree = SOURCE_ROOT; };
+		6D961BD029ECE8D900DE79F5 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchBarView.swift; path = stockTracker/Views/SearchBarView.swift; sourceTree = SOURCE_ROOT; };
+		6D961BD229ECE8F400DE79F5 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StockListView.swift; path = stockTracker/Views/StockListView.swift; sourceTree = SOURCE_ROOT; };
+		6D961BD529ECEA8600DE79F5 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainContentView.swift; path = stockTracker/Views/MainScenes/MainContentView.swift; sourceTree = SOURCE_ROOT; };
+		6D961BD729ECEAA800DE79F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = stockTracker/Views/MainScenes/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		6D961BD929ECED2100DE79F5 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Analytics.swift; path = stockTracker/Models/Analytics.swift; sourceTree = SOURCE_ROOT; };
+		6D961BDC29ECF84700DE79F5 /* TotalProfitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalProfitView.swift; path = stockTracker/Views/TotalProfitView.swift; sourceTree = SOURCE_ROOT; };
+		6D961BDE29ECF86700DE79F5 /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Charts.swift; path = stockTracker/Views/Charts.swift; sourceTree = SOURCE_ROOT; };
+		6D961BE029ECF97500DE79F5 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnalyticsView.swift; path = stockTracker/Views/AnalyticsView.swift; sourceTree = SOURCE_ROOT; };
+		6DAF179729E8333F00DBD9C8 /* StockTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAF179A29E8333F00DBD9C8 /* StockTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTrackerApp.swift; sourceTree = "<group>"; };
+		6DAF179E29E8334000DBD9C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DAF17A129E8334000DBD9C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DE8986A29E88A840067FDC0 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stock.swift; path = stockTracker/Models/Stock.swift; sourceTree = SOURCE_ROOT; };
+		6DE8986D29E88AAA0067FDC0 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StockViewModel.swift; path = stockTracker/ViewModels/StockViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6DE8987329E88C0C0067FDC0 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BrowseView.swift; path = StockTracker/Views/BrowseView.swift; sourceTree = SOURCE_ROOT; };
+		6DEB06A529EBF95A0062B11E /* SwiftPieChart-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "SwiftPieChart-main"; sourceTree = "<group>"; };
+		6DF28FE929E9FF0800DE5974 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Portfolio.swift; path = stockTracker/Models/Portfolio.swift; sourceTree = SOURCE_ROOT; };
+		6DF28FEB29E9FFE600DE5974 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PortfolioView.swift; path = stockTracker/Views/PortfolioView.swift; sourceTree = SOURCE_ROOT; };
+		6DF28FED29EA008E00DE5974 /* PortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PortfolioViewModel.swift; path = stockTracker/ViewModels/PortfolioViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6DF28FEF29EA00E700DE5974 /* AddToPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddToPortfolio.swift; path = stockTracker/Views/AddToPortfolio.swift; sourceTree = SOURCE_ROOT; };
+		6DF28FF929EB228600DE5974 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = stockTracker/Models/User.swift; sourceTree = SOURCE_ROOT; };
+		6DF28FFD29EB232600DE5974 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = stockTracker/ViewModels/LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6DF28FFF29EB234800DE5974 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = stockTracker/Views/LoginView.swift; sourceTree = SOURCE_ROOT; };
+		6DF2900429EB517800DE5974 /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnalyticsViewModel.swift; path = stockTracker/ViewModels/AnalyticsViewModel.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DAF179429E8333F00DBD9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D961BCC29ECCC4900DE79F5 /* FloatingButton in Frameworks */,
+				6DEB06AC29EBFA410062B11E /* SwiftPieChart in Frameworks */,
+				6DEB06AA29EBFA1A0062B11E /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4375EC29E9E856006E3F8A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6D4375ED29E9E874006E3F8A /* Model.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6D961BCD29ECE89E00DE79F5 /* BrowseTab */ = {
+			isa = PBXGroup;
+			children = (
+				6DE8987329E88C0C0067FDC0 /* BrowseView.swift */,
+				6D961BCE29ECE8C200DE79F5 /* IndustrySelectionView.swift */,
+				6D961BD029ECE8D900DE79F5 /* SearchBarView.swift */,
+				6D961BD229ECE8F400DE79F5 /* StockListView.swift */,
+				6D74CCEF29ED816800D83CDB /* StockView.swift */,
+			);
+			name = BrowseTab;
+			sourceTree = "<group>";
+		};
+		6D961BD429ECEA6000DE79F5 /* MainScenes */ = {
+			isa = PBXGroup;
+			children = (
+				6D961BD529ECEA8600DE79F5 /* MainContentView.swift */,
+				6D961BD729ECEAA800DE79F5 /* ContentView.swift */,
+			);
+			path = MainScenes;
+			sourceTree = "<group>";
+		};
+		6D961BDB29ECF81A00DE79F5 /* AnalyticsTab */ = {
+			isa = PBXGroup;
+			children = (
+				6D961BDC29ECF84700DE79F5 /* TotalProfitView.swift */,
+				6D961BDE29ECF86700DE79F5 /* Charts.swift */,
+				6D961BE029ECF97500DE79F5 /* AnalyticsView.swift */,
+			);
+			name = AnalyticsTab;
+			sourceTree = "<group>";
+		};
+		6DAF178E29E8333F00DBD9C8 = {
+			isa = PBXGroup;
+			children = (
+				6DEB06A429EBF95A0062B11E /* Packages */,
+				6DAF179929E8333F00DBD9C8 /* StockTracker */,
+				6DAF179829E8333F00DBD9C8 /* Products */,
+				6DF2900A29EB524700DE5974 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DAF179829E8333F00DBD9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF179729E8333F00DBD9C8 /* StockTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DAF179929E8333F00DBD9C8 /* StockTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6D8BCB6429ED54E500E23CD0 /* Info.plist */,
+				6D4375EC29E9E856006E3F8A /* Services */,
+				6DE8987029E88AFC0067FDC0 /* Views */,
+				6DE8986C29E88A9A0067FDC0 /* ViewModels */,
+				6DE8986929E889420067FDC0 /* Models */,
+				6DAF179A29E8333F00DBD9C8 /* StockTrackerApp.swift */,
+				6D74CCED29ED74BE00D83CDB /* Comfortaa-SemiBold.ttf */,
+				6D8BCB6229ED549700E23CD0 /* Roboto-Italic.ttf */,
+				6DAF179E29E8334000DBD9C8 /* Assets.xcassets */,
+				6DAF17A029E8334000DBD9C8 /* Preview Content */,
+			);
+			path = StockTracker;
+			sourceTree = "<group>";
+		};
+		6DAF17A029E8334000DBD9C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF17A129E8334000DBD9C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DE8986929E889420067FDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DE8986A29E88A840067FDC0 /* Stock.swift */,
+				6DF28FE929E9FF0800DE5974 /* Portfolio.swift */,
+				6DF28FF929EB228600DE5974 /* User.swift */,
+				6D961BD929ECED2100DE79F5 /* Analytics.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6DE8986C29E88A9A0067FDC0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6DE8986D29E88AAA0067FDC0 /* StockViewModel.swift */,
+				6DF28FED29EA008E00DE5974 /* PortfolioViewModel.swift */,
+				6DF28FFD29EB232600DE5974 /* LoginViewModel.swift */,
+				6DF2900429EB517800DE5974 /* AnalyticsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6DE8987029E88AFC0067FDC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D961BDB29ECF81A00DE79F5 /* AnalyticsTab */,
+				6D961BD429ECEA6000DE79F5 /* MainScenes */,
+				6D961BCD29ECE89E00DE79F5 /* BrowseTab */,
+				6DF28FEB29E9FFE600DE5974 /* PortfolioView.swift */,
+				6DF28FEF29EA00E700DE5974 /* AddToPortfolio.swift */,
+				6DF28FFF29EB234800DE5974 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DEB06A429EBF95A0062B11E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6DEB06A529EBF95A0062B11E /* SwiftPieChart-main */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		6DF2900A29EB524700DE5974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DAF179629E8333F00DBD9C8 /* StockTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAF17A529E8334000DBD9C8 /* Build configuration list for PBXNativeTarget "StockTracker" */;
+			buildPhases = (
+				6DAF179329E8333F00DBD9C8 /* Sources */,
+				6DAF179429E8333F00DBD9C8 /* Frameworks */,
+				6DAF179529E8333F00DBD9C8 /* Resources */,
+				6D71FA7429E984C20020281D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockTracker;
+			packageProductDependencies = (
+				6DEB06A929EBFA1A0062B11E /* SwiftUICharts */,
+				6DEB06AB29EBFA410062B11E /* SwiftPieChart */,
+				6D961BCB29ECCC4900DE79F5 /* FloatingButton */,
+			);
+			productName = StockTracker;
+			productReference = 6DAF179729E8333F00DBD9C8 /* StockTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DAF178F29E8333F00DBD9C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6DAF179629E8333F00DBD9C8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6DAF179229E8333F00DBD9C8 /* Build configuration list for PBXProject "StockTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DAF178E29E8333F00DBD9C8;
+			packageReferences = (
+				6DEB06A829EBFA1A0062B11E /* XCRemoteSwiftPackageReference "ChartView" */,
+				6D961BCA29ECCC4900DE79F5 /* XCRemoteSwiftPackageReference "FloatingButton" */,
+			);
+			productRefGroup = 6DAF179829E8333F00DBD9C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DAF179629E8333F00DBD9C8 /* StockTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DAF179529E8333F00DBD9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAF17A229E8334000DBD9C8 /* Preview Assets.xcassets in Resources */,
+				6D8BCB6329ED549700E23CD0 /* Roboto-Italic.ttf in Resources */,
+				6D74CCEE29ED74BE00D83CDB /* Comfortaa-SemiBold.ttf in Resources */,
+				6DAF179F29E8334000DBD9C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D71FA7429E984C20020281D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\n  export PATH\nfi\n\nif which swiftlint >/dev/null; then\n  swiftlint --config swiftlint.yml\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DAF179329E8333F00DBD9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF28FEC29E9FFE600DE5974 /* PortfolioView.swift in Sources */,
+				6DF28FEE29EA008E00DE5974 /* PortfolioViewModel.swift in Sources */,
+				6DAF179B29E8333F00DBD9C8 /* StockTrackerApp.swift in Sources */,
+				6D4375EE29E9E874006E3F8A /* Model.swift in Sources */,
+				6D961BD829ECEAA800DE79F5 /* ContentView.swift in Sources */,
+				6D961BE129ECF97500DE79F5 /* AnalyticsView.swift in Sources */,
+				6DF28FF029EA00E700DE5974 /* AddToPortfolio.swift in Sources */,
+				6DF28FEA29E9FF0800DE5974 /* Portfolio.swift in Sources */,
+				6DF2900029EB234800DE5974 /* LoginView.swift in Sources */,
+				6D961BCF29ECE8C200DE79F5 /* IndustrySelectionView.swift in Sources */,
+				6DF28FFE29EB232600DE5974 /* LoginViewModel.swift in Sources */,
+				6DE8986B29E88A840067FDC0 /* Stock.swift in Sources */,
+				6D961BDF29ECF86700DE79F5 /* Charts.swift in Sources */,
+				6DE8987429E88C0C0067FDC0 /* BrowseView.swift in Sources */,
+				6DE8986E29E88AAA0067FDC0 /* StockViewModel.swift in Sources */,
+				6D74CCF029ED816800D83CDB /* StockView.swift in Sources */,
+				6D961BDD29ECF84700DE79F5 /* TotalProfitView.swift in Sources */,
+				6DF28FFA29EB228600DE5974 /* User.swift in Sources */,
+				6D961BD329ECE8F400DE79F5 /* StockListView.swift in Sources */,
+				6D961BD629ECEA8600DE79F5 /* MainContentView.swift in Sources */,
+				6D961BD129ECE8D900DE79F5 /* SearchBarView.swift in Sources */,
+				6D961BDA29ECED2100DE79F5 /* Analytics.swift in Sources */,
+				6DF2900529EB517800DE5974 /* AnalyticsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DAF17A329E8334000DBD9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DAF17A429E8334000DBD9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DAF17A629E8334000DBD9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StockTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = KRRAY72P39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StockTracker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdeniz.StockTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DAF17A729E8334000DBD9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StockTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = KRRAY72P39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StockTracker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enesdeniz.StockTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DAF179229E8333F00DBD9C8 /* Build configuration list for PBXProject "StockTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF17A329E8334000DBD9C8 /* Debug */,
+				6DAF17A429E8334000DBD9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAF17A529E8334000DBD9C8 /* Build configuration list for PBXNativeTarget "StockTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF17A629E8334000DBD9C8 /* Debug */,
+				6DAF17A729E8334000DBD9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D961BCA29ECCC4900DE79F5 /* XCRemoteSwiftPackageReference "FloatingButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/FloatingButton";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		6DEB06A829EBFA1A0062B11E /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D961BCB29ECCC4900DE79F5 /* FloatingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D961BCA29ECCC4900DE79F5 /* XCRemoteSwiftPackageReference "FloatingButton" */;
+			productName = FloatingButton;
+		};
+		6DEB06A929EBFA1A0062B11E /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DEB06A829EBFA1A0062B11E /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		6DEB06AB29EBFA410062B11E /* SwiftPieChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftPieChart;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6DAF178F29E8333F00DBD9C8 /* Project object */;
+}

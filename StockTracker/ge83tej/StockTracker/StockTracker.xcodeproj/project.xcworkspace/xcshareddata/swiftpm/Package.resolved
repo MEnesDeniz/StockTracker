@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICharts",
+        "repositoryURL": "https://github.com/AppPear/ChartView",
+        "state": {
+          "branch": null,
+          "revision": "9115a992c91fa19cbb4f2241084240d38654a1fc",
+          "version": "1.5.5"
+        }
+      },
+      {
+        "package": "FloatingButton",
+        "repositoryURL": "https://github.com/exyte/FloatingButton",
+        "state": {
+          "branch": null,
+          "revision": "742705af8a33956406e10a2a033ef295d23e58f2",
+          "version": "1.1.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
